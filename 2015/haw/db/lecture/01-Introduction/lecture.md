@@ -355,7 +355,7 @@ KW3 21.1.2016 - Datenschutz / Klausurvorbereitung
 ---
 
  - konkurrierende Transaktionen müssen synchronisiert werden
- - Verhinderung der Beeinflussung und Schreibkonflikten
+ - Verhinderung der Beeinflussung und von Schreibkonflikten
 
 ---
 
@@ -482,12 +482,6 @@ mysql> select * from product limit 1\G
                       has_old_price: 0
                           old_price: 179.000
                            vat_rate: 19.0000
-                           shipping: 0.000
-             shipping_international: 0.000
-                     shipping_gross: 0.000
-       shipping_gross_international: 0.000
-              has_specific_shipping: 0
-has_specific_shipping_international: 0
                              weight: 0.000
           shipping_calculation_type: 0
                                pool: 10
@@ -571,8 +565,8 @@ has_specific_shipping_international: 0
 
 ---
 
-### Logische Datenunabhängigkeit
-#### Anwendungsunabhängigkeit
+## Logische Datenunabhängigkeit
+### Anwendungsunabhängigkeit
 
 ^ Entkopplung der Datenbank von Änderungen und Erweiterungen der Anwendungsschnittstellen.
 
