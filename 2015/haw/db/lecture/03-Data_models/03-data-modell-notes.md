@@ -141,7 +141,7 @@ Unterscheidung zwischen Objekten (Datenbankschema oder Datenbank) und Konzepten 
 ## *Schlüssel*
 
 ^ Menge von identifizierenden Attributen
-^ grafischen Darstellung wird der Schlüssel unterstrichen.
+^ grafischen Darstellung wird der Schlüssel unterstrichen
 
 ---
 
@@ -151,7 +151,7 @@ Unterscheidung zwischen Objekten (Datenbankschema oder Datenbank) und Konzepten 
 
 ## *Kardinalitäten*
 
-^  schränkt die möglichen Teilnahmen von Entitäten an einer Beziehung ein, indem ein minimaler und ein maximaler Wert angegeben wird.
+^ schränkt die möglichen Teilnahmen von Entitäten an einer Beziehung ein, indem ein minimaler und ein maximaler Wert angegeben wird.
 
 ---
 
@@ -215,7 +215,7 @@ Aufgabe als ER-Modell - *15 Min*
 # Benutzung
 ## UML vs. ERM
 
-^  ERDhow the tables should connect, what fields are going to be on each table, the tables connection, if many-to-many, one-to-many.
+^ ERD how the tables should connect, what fields are going to be on each table, the tables connection, if many-to-many, one-to-many.
 
 ^ UML sequence diagram, state diagram, more for the funcionality of the application (what user can do, who does it, when he does it, before what step, what table he use to do it) other then the tables description.
 
@@ -440,7 +440,7 @@ Vorgesetzter	Untergebener
 ![right fit](../images/fremdschluessel.png)
 
 ^ Integritätsbedingungen
-^  Attributskombination A in einem Relationenschema R heißt Fremdschlüssel, wenn es in einem Relationenschema R2 den Primärschlüssel P gibt und A = P gilt.
+^ Attributskombination A in einem Relationenschema R heißt Fremdschlüssel, wenn es in einem Relationenschema R2 den Primärschlüssel P gibt und A = P gilt.
 ^ Tupel aus R schaut man sich die Attribute A an. Dann gibt es in R2 jeweils ein Tupel, das die entsprechende Werte aus A enthält.
 ^ Einfügen, Ändern und Löschen von Daten, auf denen Fremdschlüsselbeziehungen definiert sind, muss besonders berücksichtigt werden
 ^ Mehrere Tupel unterschiedlicher Relationen gehören „inhaltlich“ zusammen und müssen gemeinsam manipuliert werden
