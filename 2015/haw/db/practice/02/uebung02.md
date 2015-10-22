@@ -14,4 +14,9 @@ Nehmen Sie Ihre Ergebnisse von 1.3 und dokumentieren Sie diese in Form eines ER-
 
 ## Aufgabe 2.2
 
-Erlāutern Sie anhand des T-Shirt-Shops die in der Vorlesung behandelten Architekurtypen. Falls ein Typ nicht auftritt, lassen Sie ihn bitte mit einer kurzen Begründung aus.
+Erlāutern Sie anhand des T-Shirt-Shops die in der Vorlesung behandelten Architekturtypen. Falls ein Typ nicht auftritt, lassen Sie ihn bitte mit einer kurzen Begründung aus.
+
+Erklaerung:
+Es geht mir hier um die Verwendungen des Begriffes *Architektur* beim Modellieren eines Shops, wie z.B. der Begriff *Softwarearchitektur*. Um das Verstaendis dieser Begriffe zu foerdern, moechte ich, dass Sie erklaeren koennen, was dieser Begriff fuer einen Shop bedeutet.
+
+Falls Sie doch nicht verstehen, was gemeint ist, erklaeren Sie mit eigenen Worten anhand des T-Shirt-Shops, wie die Drei-Ebenen-Schema-Architektur aufgebaut ist und warum man bei der Umsetzung an diesen Ebenen festhalten sollte.
