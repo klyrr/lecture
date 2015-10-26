@@ -6,10 +6,10 @@
     * KW40 1.10.2015 - Einführung
     * KW41 8.10.2015 - Architektur
     * KW42 15.10.2015 - Datenmodelle
-    * KW43 22.10.2015 - Relationale Datenbankdesign
-    * KW45 5.11.2015 - SQL - Einführung
-    * KW46 12.11.2015 - SQL - Komplexere Abfragen
-    * KW47 19.11.2015 - Programmierung
+    * KW43 5.11.2015 - Relationale Datenbankdesign
+    * KW45 12.11.2015 - SQL - Einführung
+    * KW46 19.11.2015 - SQL - Komplexere Abfragen
+    * KW47 26.11.2015 - Programmierung
     * KW49 3.12.2015 - Transaktionen
     * KW50 10.12.2015 - DBMS
     * KW1 7.1.2016 - Integrität
