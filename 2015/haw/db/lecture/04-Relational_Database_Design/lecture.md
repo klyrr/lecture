@@ -1,3 +1,0 @@
-# Relationaler Datenbankentwurf
-
-
