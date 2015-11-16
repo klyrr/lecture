@@ -1,0 +1,39 @@
+CREATE TABLE PERSON (
+	ID INT PRIMARY KEY,
+	VORNAME VARCHAR(30),
+	NACHNAME VARCHAR(30),
+	HERKUNFTSLAND CHAR(2)
+);
+
+CREATE TABLE EREIGNIS (
+	ID INT PRIMARY KEY,
+	NAME VARCHAR(100),
+	JAHR INT,
+	PERSON_ID INT REFERENCES PERSON(ID)
+);
+
+INSERT INTO PERSON VALUES (1, 'Hedy', 'Lamarr', 'HU');
+INSERT INTO PERSON VALUES (2, 'Marie', 'Curie', 'PL');
+INSERT INTO PERSON VALUES (3, 'Ada', 'Lovelace', 'GB');
+INSERT INTO PERSON VALUES (4, 'Radia', 'Perlman', 'US');
+
+INSERT INTO EREIGNIS VALUES (1, 'Entdeckung des Frequenzsprungverfahren', 1942, 1);
+INSERT INTO EREIGNIS VALUES (2, 'Entdeckung der Röntgenstrahlung', 1895, 2);
+INSERT INTO EREIGNIS VALUES (3, 'Erste Programmiererin', 1842, 3);
+INSERT INTO EREIGNIS VALUES (4, 'Erfindung des Spanning Tree Protocol', 1990, 4);
+
+-- Ordnen Sie die Ereignisse nach Jahr absteigend
+
+SELECT * 
+FROM EREIGNIS 
+ORDER BY JAHR DESC;
+
+-- Geben Sie die Vornamen der Personen aus, die an Ereignisse vor 1900 beteiligt waren
+SELECT PERSON.VORNAME
+FROM PERSON, EREIGNIS
+WHERE EREIGNIS.JAHR < 1900 
+   AND PERSON.ID = EREIGNIS.PERSON_ID;
+
+-- Geben Sie alle Herkunftslānder aus
+SELECT PERSON.HERKUNFTSLAND
+FROM PERSON;
