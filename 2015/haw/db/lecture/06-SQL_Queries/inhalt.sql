@@ -23,6 +23,7 @@ INSERT INTO PERSONAL VALUES (161, 'Martin', 'Fowler', 'it2', 'abt13', 'dek');
 INSERT INTO PERSONAL VALUES (163, 'Erich', 'Gamma', 'it1', 'abt14', 'aok');
 INSERT INTO PERSONAL VALUES (164, 'Marlyn', 'Meltzer', 'it4', 'abt13', 'bak');
 INSERT INTO PERSONAL VALUES (173, 'Richard', 'Helm', 'it1', NULL, 'dek');
+INSERT INTO PERSONAL VALUES (177, 'Linus', 'Torvalds', 'it2', 'abt11', 'dek');
 
 INSERT INTO MASCHINE VALUES (1, 'Bohrmaschine', 123, '01-feb-14', 30000, 15000);
 INSERT INTO MASCHINE VALUES (2, 'Bohrmaschine', 124, '01-jul-07', 30000, 18000);
@@ -39,6 +40,7 @@ INSERT INTO KIND VALUES (127, 'Pitts', 'Smalltalk', '25-mar-05');
 INSERT INTO KIND VALUES (133, 'Perlman', 'Ron', '06-sep-08');
 INSERT INTO KIND VALUES (161, 'Fowler', 'John', '09-aug-10');
 INSERT INTO KIND VALUES (163, 'Gamma', 'Berta', '22-dec-07');
+INSERT INTO KIND VALUES (177, 'Torvalds', 'Tux', '01-jan-13');
 
 INSERT INTO PRAEMIE VALUES (123, 700, '22-dec-07');
 INSERT INTO PRAEMIE VALUES (124, 500, '21-feb-14');
