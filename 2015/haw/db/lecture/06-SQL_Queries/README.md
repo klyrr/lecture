@@ -6,12 +6,14 @@
 
 Als SQL-Client koennen Sie den SQL-Developer benutzen.
 
-## Kein Oracle
+# Kein Oracle-SQL-Developer
 
-Wenn Sie kein Oracle verwenden moechten, verstehe ich das vollkommen.
+Ich empfehle etwas wie [SquirrelSQL](http://www.squirrelsql.org/#installation) oder das CLI.
 
-Ich empfehle in diesem Fall MySQL (weil sich das IMHO am leichtesten installieren laesst). Zu finden [hier](https://dev.mysql.com/downloads/mysql/) .
+(Den Treiber muessen Sie allerdings immer noch bei oracle runter laden)
 
-Im Falle von MySQL (Ich bin mir gerade nicht sicher, ob da ein Client mitkommt), empfehle ich ansonsten etwas wie [SquirrelSQL](http://www.squirrelsql.org/#installation) oder das CLI.
+Driver: Oracle Thin Client
+URL: jdbc:oracle:thin:@ora14.informatik.haw-hamburg.de:1521:inf14 
 
+Username/ Password: Ihre HAW Kennung und Passwort
 
