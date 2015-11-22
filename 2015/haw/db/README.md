@@ -9,9 +9,9 @@
     * KW43 5.11.2015 - Relationale Datenbankdesign
     * KW45 12.11.2015 - SQL - Einführung
     * KW46 19.11.2015 - SQL - Komplexere Abfragen
-    * KW47 26.11.2015 - Programmierung
+    * KW47 26.11.2015 - SQL - Abfragen und Tabellenmanipulation
     * KW49 3.12.2015 - Transaktionen
-    * KW50 10.12.2015 - DBMS
+    * KW50 10.12.2015 - DBMS 
     * KW1 7.1.2016 - Integrität
     * KW2 14.1.2016 - NoSQL
     * KW3 21.1.2016 - Datenschutz / Klausurvorbereitung
@@ -26,3 +26,15 @@
    * als analoger Zettel
    * als pdf per E-Mail
    * Link zu einem github-repo
+
+# Klausur
+
+## 
+
+## Themen
+ - ANSI-SPARC
+ - ERModelle
+ - Relationenschema
+ - ERM -> Relationenschema
+ - Normalisierung 
+ - SQL - (create|alter) table, select, update/ insert
