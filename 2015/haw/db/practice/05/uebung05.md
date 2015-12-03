@@ -1,6 +1,6 @@
 # Aufgabenzettel 5
 
-Abgabe: _2.12._ bzw. _9.12._
+Abgabe: _3.12._ bzw. _10.12._
 
 [Hinweise für die Abgabe](https://github.com/klyrr/lecture/blob/master/2015/haw/db/README.md)
 
