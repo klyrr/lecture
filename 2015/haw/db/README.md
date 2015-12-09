@@ -11,7 +11,7 @@
     * KW46 19.11.2015 - SQL - Komplexere Abfragen
     * KW47 26.11.2015 - SQL - Abfragen und Tabellenmanipulation
     * KW49 3.12.2015 - Transaktionen
-    * KW50 10.12.2015 - DBMS 
+    * KW50 10.12.2015 - JDBC 
     * KW1 7.1.2016 - Integrität
     * KW2 14.1.2016 - NoSQL
     * KW3 21.1.2016 - Datenschutz / Klausurvorbereitung
@@ -31,10 +31,14 @@
 
 ## 
 
-## Themen
+## Themen (grober Überblick)
  - ANSI-SPARC
+ - Zwei-Schichten-Architektur
  - ERModelle
  - Relationenschema
  - ERM -> Relationenschema
  - Normalisierung 
  - SQL - (create|alter) table, select, update/ insert
+ - Was sind Transaktionen: `ACID` - Eigenschaften, 2PL, Anomalien
+ - JDBC
+ - CAP-Theorem 
