@@ -41,11 +41,11 @@ ii) Geben Sie aus, wie viele unterschiedliche Dozenten ein Fach unterrichten, da
 
 iii) Wie viele 23-jährige Studenten gibt es?
 
-iv) Geben Sie alle Dozenten (Vorname, Nachname) aus, die mehr als zwei Vorlesungen halten.
+iv) Geben Sie alle Dozenten (Vorname, Nachname) aus, die mehr als zwei Fächer halten.
 
 v) Geben Sie alle Vornamen der Studenten und Dozenten aus. Jeder Vorname soll nur einmal im Ergebnis vorkommen. Es soll alphabetisch sortiert sein.
 
-vi) Geben Sie alle Studenten (Vorname, Nachname) aus, die eine Vorlesung der Dozentin "Nancy Lynch" besuchen.
+vi) Geben Sie alle Studenten (Vorname, Nachname) aus, die ein Fach der Dozentin "Nancy Lynch" besuchen.
 
 b) Was wird hier abgefragt?
 
