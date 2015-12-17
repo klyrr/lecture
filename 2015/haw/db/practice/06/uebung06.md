@@ -50,10 +50,10 @@ vi) Geben Sie alle Studenten (Vorname, Nachname) aus, die ein Fach der Dozentin 
 b) Was wird hier abgefragt?
 
 ```
-SELECT Student.Matrikelnummer
+SELECT Student_Fach.Matrikelnummer
 FROM Dozent, Fach, Dozent_Fach, Student_Fach
 WHERE Dozent.DozentID=Dozent_Fach.DozentID AND Fach.FachID=Dozent_Fach.FachID AND Student_Fach.FachID=FachID AND Fach.Kategorie="OOP"
-GROUP BY Student.Matrikelnummer
+GROUP BY Student_Fach.Matrikelnummer
 HAVING COUNT(*) > 1
 
 ```
