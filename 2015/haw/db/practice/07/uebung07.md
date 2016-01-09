@@ -21,7 +21,7 @@ g) Es soll eine View oder eine neue Tabelle geben für alle Mitarbeiteradressen.
 
 ## Aufgaben 7.2
 
-Erstellen Sie aus allen bisher bekannten Tabellen ein vollständiges ER-Modell.
+Erstellen Sie aus allen bisher [bekannten Tabellen](https://github.com/klyrr/lecture/tree/master/2015/haw/db/lecture/06-SQL_Queries) ein vollständiges ER-Modell.
 
 ## Aufgaben 7.3
 
