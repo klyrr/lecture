@@ -42,3 +42,5 @@
  - Trigger
  - Integrität
  - CAP-Theorem
+ - NoSQL - Typen, Anwendung
+
