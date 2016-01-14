@@ -38,7 +38,6 @@
  - Normalisierung
  - SQL - (create|alter) table, select, update/ insert
  - Was sind Transaktionen: `ACID` - Eigenschaften, 2PL, Anomalien
- - JDBC
  - Trigger
  - Integrität
  - CAP-Theorem
